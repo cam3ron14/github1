@@ -1,0 +1,25 @@
+.box {
+    border: 4px solid grey;
+    height: 100px;
+    width: 100px;
+}
+
+.box-small {
+    border: 4px solid grey;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.box-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    border: 4px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
