@@ -69,3 +69,39 @@ button {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+#about {
+    padding: 24px;
+    background-color: #f8ffdc;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    padding: 16px 0px;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__img-wrapper {
+    width: 40%;
+    padding: 0px 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.about__description-wrapper {
+    width: 60%;
+    padding: 0px 24px;
+}
+p {
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
