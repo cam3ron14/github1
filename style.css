@@ -33,3 +33,10 @@ a {
     font-weight: 700;
     font-size: 24px;
 }
+
+header {
+    background-color: #eadcff;
+    padding: 24px;
+    height: calc(100vh - 70px);
+    display: flex;
+}
