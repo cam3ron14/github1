@@ -39,4 +39,33 @@ header {
     padding: 24px;
     height: calc(100vh - 70px);
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.subheader {
+    font-size: 32px;
+    margin: 16px;
+}
+
+button {
+    background-color: aqua;
+    border: none;
+    padding: 16px 24px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
