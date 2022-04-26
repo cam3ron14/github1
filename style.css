@@ -6,8 +6,44 @@
     font-family: 'Roboto', sans-serif;
 }
 
-img {
+.logo {
     width: 300px;
+}
+
+header {
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.subheader {
+    font-size: 32px;
+    margin: 12px 0px 24px 0px;
+}
+
+button {
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: aqua;
+    padding: 16px 24px;
+    cursor: pointer;
 }
 
 nav {
@@ -32,4 +68,45 @@ a {
     font-size: 24px;
     font-weight: bold;
     color: black;
+}
+
+#about {
+    background-color: #f8ffdc;
+    padding: 40px 0px;
+}
+
+h2 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+
+.section__description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__img--wrapper {
+    width: 40%;
+}
+
+img {
+    width: 100%;
+}
+
+.section__description--wrapper {
+    width: 60%;
+}
+
+.section__description--para {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.section__description--wrapper,
+.about__img--wrapper {
+    padding: 0px 24px;
 }
