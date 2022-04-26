@@ -70,6 +70,10 @@ a {
     color: black;
 }
 
+/*
+    ABOUT
+*/
+
 #about {
     background-color: #f8ffdc;
     padding: 40px 0px;
@@ -109,4 +113,30 @@ img {
 .section__description--wrapper,
 .about__img--wrapper {
     padding: 0px 24px;
+}
+
+/*
+ Discord
+*/
+
+#discord {
+    background-color: #cefeff;
+    padding: 40px 0px;
+}
+
+/*
+    Contact
+*/
+
+#contact {
+    background-color: #dce9ff;
+    padding: 40px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
 }
