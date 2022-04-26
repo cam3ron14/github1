@@ -137,6 +137,18 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
 }
+
+input,
+textarea {
+    font-size: 20px;
+    padding: 6px;
+    margin-bottom: 16px;
+}
+
+/* 
+FOOTER
+*/
+
